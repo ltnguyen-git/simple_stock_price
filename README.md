@@ -1,1 +1,5 @@
-# simple_stock_price
+# Simple_stock_price
+### You can try it on: https://ltnguyen-git-simple-stock-price-simple-stock-price-l1hu47.streamlit.app/
+This code is a Python program that uses the Streamlit library to create a simple stock price app. The user inputs a ticker symbol for a stock, as well as start and end dates for the time period they want to analyze. The yfinance library is used to download stock pricing data for the specified time period, and then the Plotly Express library is used to create a graph of the stock's adjusted closing price during that period.
+
+The program also displays the stock's volume price in a line chart. The user can then switch between two tabs, one for pricing data and one for news. In the pricing data tab, the program shows various statistics derived from the pricing data, such as annual return, standard deviation and risk adjusted return. In the news tab, the StockNews library is used to retrieve the latest news articles related to the particular stock, and the program displays headlines and a sentiment analysis of each article.
