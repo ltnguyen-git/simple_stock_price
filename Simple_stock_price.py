@@ -6,7 +6,7 @@ import plotly.express as px
 from stocknews import StockNews
 
 ticker = st.sidebar.text_input("Ticker")
-st.sidebar.markdown("Make sure to change the start and end dates to correspond with the time period you want to test GOOGL if you're interested.")
+st.sidebar.markdown("Make sure to change the start and end dates to correspond with the time period you want to test GOOGL or MSFT if you're interested.")
 start_date =  st.sidebar.date_input("Start Date")
 end_date =  st.sidebar.date_input("End Date")
 
